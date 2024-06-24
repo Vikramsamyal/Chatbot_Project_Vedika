@@ -1,0 +1,618 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi",  "Is anyone there?", "Hello", "Good day","Hey", "Anyone home?", "Greetings", "Lovely day",
+         "Yo",  "Hello, is anyone around?", "Hiya",  "Hello, anyone there?", "Good morning", 
+         "Hey!",  "Is somebody here?", "Hi there", "Heyyy","Heyy", "Hii", "Hiii","Hey Vedika", "Hello Vedika", "Good Morning Vedika", "Greetings Vedika", "Good Afternoon Vedika"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey there!", "Nice to meet you!", "Hi, what brings you here?"
+          ,"Greetings!", "Welcome back!", "Hello, how may I assist you?"
+          ,"Hi!", "Great to see you!", "Hello, how can I be of service?"
+          ,"Hey!", "Long time no see!", "Hi there, what can I do for you?"
+          ,"Hiya!", "It's a pleasure to see you again!", "Hey there, how can I help you today?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later","See ya", "Goodbye", "Good bye", "I am Leaving", "Have a Good day","Farewell!", "I'm taking off!", "Catch you later!", "So long!", "Time for me to go!","Tata", "See you next time!", "Bye for now!"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Catch you on the flip side!","Goodbye, Tata", "Bye bye Vedika", "Good bye Vedika", "See you later Vedika",
+         "See you in the virtual world!",
+         "Gotta jet, chat with you soon!",
+         "Until we meet again in the AI realm!",
+         "Talk to you in a bit, alligator!",
+         "Toodle-oo, see you in a byte!",
+         "Take care and chat again soon!",
+         "In a while, crocodile!",
+         "See you later, AI navigator!",
+         "Adios, amigo, and may the AI be with you!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Vedika", "what is your age", "how old are you", "age?","What's your age?", "How many years have you been around?", "Can you tell me your age?", "Tell me how old you are.", "How many years young are you?"
+          ,"How many years have passed since your creation?", "What's the age of Vedika?", "Can you share your age with me?", "Let me know your age.", "How long have you existed?"
+          ,"Tell me how old Vedika is.", "What's Vedika's age?", "How many years have you been operational?", "How many years have you been alive?", "How many years do you count?"
+          ,"How many years have you been in existence?", "What's your age, Vedika?", "Can you reveal your age?", "How long have you been here?", "Tell me your age.", "How young are you?"
+          ,"Tell me the age of the AI.", "How old is Vedika?", "What is Vedika's age?", "Can you share your age?", "How many years have you been functioning?", "When were you born?"],
+         "responses": ["I am just a week old!", "I'm as new as a freshly hatched chick!",
+         "I'm just a little baby in the world of AI!",
+         "I'm as young as a baby unicorn!",
+         "I'm a newborn in the realm of language models!",
+         "I'm like a newly sprouted sapling in the AI forest!",
+         "I'm only a few days old, still learning to crawl!",
+         "I'm a tiny tot in the vast universe of AI intelligence!",
+         "I'm as young as a puppy with a wagging tail!",
+         "I'm like a budding flower, waiting to bloom in knowledge!",
+         "I'm just a baby bot, but watch out for my future growth!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","What do you go by?", "What can I name you?", "How should I address you?", "Tell me your name", "Who are you?",
+         "What's your title?", "How do you prefer to be addressed?", "What can I call you?", "Can you share your name?", "What should I refer to you as?", "How would you like me to call you?"
+          ,"Tell me your given name.", "What are you known as?", "What name do you use?", "How should I greet you?", "What's the name you go by?"
+          ,"Inform me about your identity.", "Can you reveal your name?", "What's your preferred name?", "What are you called?", "How can I address you?"],
+         "responses": ["Call me Vedika, your friendly AI companion!",
+         "Address me as Vedika, your digital assistant at your service!",
+         "You may refer to me as Vedika, your AI buddy!",
+         "Vedika, your virtual pal, reporting for duty!",
+         "Feel free to call me Vedika, your knowledgeable AI sidekick!",
+         "I go by the name Vedika, the wise AI sage!",
+         "Vedika, the AI guru, here to assist you!",
+         "Greetings! I am Vedika, the AI with the answers!",
+         "Vedika, the all-knowing AI, at your command!",
+         "I'm Vedika, the AI magician. I can't conjure rabbits, but I can conjure information!" ],
+         "context_set": ""
+        },
+        {"tag": "purpose",
+         "patterns": ["What is your purpose?", "can you describe your job?","What do you exist for?", "How would you define your role?", "What's your mission?", "Tell me about your job", "What purpose do you serve?",
+         "What is your function?", "Can you explain what you do?", "Describe your job to me", "What tasks do you handle?", "What's your main objective?","Tell me about yourself.",
+         "What are you designed to do?", "Can you elaborate on your duties?", "Explain your job in detail", "What is your primary function?", "What do you specialize in?",
+         "What is your intended use?", "In what ways do you serve?", "Clarify your job's responsibilities", "How do you contribute?", "What's your area of expertise?", "What exactly is your role at ihub?",
+          "Can you talk about your job?", "Provide information about your role", "How do you fulfill your purpose?", "What are you programmed for?" ],
+         "responses": ["I am your ai receptionist at i-hub.", "I am a social robot, here to guide you.", "Greetings! I am your AI assistant, ready to serve you at i-HUB.", "I am an interactive bot, here to provide guidance and assistance."
+          ,"Hello! I'm the AI receptionist, dedicated to helping you navigate i-HUB.", "I'm a friendly social robot, always at your service."
+          ,"Welcome! I am the virtual assistant at i-HUB, programmed to assist you.", "I'm an AI chatbot, designed to be your helpful companion."
+          ,"Hi there! I'm the digital receptionist of i-HUB, here to make your experience smoother.", "I'm a social AI, built to provide support and answers."
+          ,"Hey! As the AI receptionist at i-HUB, I'm here to assist you with anything you need.", "I'm a social robot, geared up to be your knowledgeable guide."
+           ,"Yo! I'm your cyber greeter, bringing digital vibes to i-HUB!", "I'm the laughter-inducing bot, here to guide and entertain you."
+            ,"Hello, human! I'm your friendly AI pal, equipped with wit and wisdom.", "I'm the jolly robo-friend, ready to make your day brighter."
+           ,"Greetings, earthling! I'm the AI receptionist, programmed for witty conversations.", "I'm the pun master robot, delivering smiles and assistance."
+           ,"Salutations, human friend! I'm the quirky AI assistant, armed with jokes and solutions.", "I'm the laughter generator, blending humor and helpfulness."
+           ,"Hey there! I'm the AI whiz, committed to making i-HUB a fun and informative place.", "I'm the comedic genius robot, here to guide you with a laugh."],
+         "context_set": ""
+        },
+        {"tag": "ihub description",
+         "patterns": ["Can you tell me something about iHUB?", "what are the goals of iHub?", "What is iHUb?", "What is the purpose of iHUB?", "What is the aim of ihub?", "Could you provide some information about iHUB?", "What are the objectives of iHUB?", "Tell me about iHUB.", "What does iHUB entail?", "What does iHUB aim to achieve?"
+          ,"I'd like to know about iHUB.", "What is the mission of iHUB?", "Share details about iHUB.", "What's the purpose of iHUB?", "What are the aspirations of iHUB?"
+          ,"Can you shed light on iHUB?", "What are the aims of iHUB?", "Explain iHUB to me.", "What is the primary goal of iHUB?", "What is iHUB all about?"
+          ,"Tell me something about iHUB.", "What is the vision of iHUB?", "Inform me about iHUB.", "What motivates iHUB?", "What is the main objective of iHUB?"
+          ,"Do you have any information on iHUB?", "What are the purposes of iHUB?", "Define iHUB.", "What drives iHUB?", "What does iHUB seek to accomplish?"],
+         "responses": ["IIT Mandi iHub and HCI Foundation is a Technology Innovation Hub (TIH). It is focused on Human-Computer Interaction (HCI). The iHub is planned to make India a leader in human-computer interaction (HCI) research in the world.", "IIT Mandi iHub, in collaboration with HCI Foundation, serves as a dynamic Technology Innovation Hub (TIH). The primary focus is on advancing Human-Computer Interaction (HCI) research to elevate India's global standing in this field."
+          ,"At IIT Mandi iHub, together with HCI Foundation, we foster a cutting-edge Technology Innovation Hub (TIH) with a specific emphasis on Human-Computer Interaction (HCI). Our mission is to propel India to the forefront of HCI research worldwide."
+          ,"IIT Mandi iHub partners with HCI Foundation to establish a transformative Technology Innovation Hub (TIH) driven by the pursuit of excellence in Human-Computer Interaction (HCI). Our vision is to position India as a leading force in HCI research on a global scale.", "IIT Mandi iHub and HCI Foundation operates as a Technology Innovation Hub supported by the National Mission on Inter-disciplinary Cyber-Physical Systems (NM-ICPS). Its mission is to establish a globally acclaimed center for fostering HCI research, facilitating technology adoption in industries, and promoting skill enhancement."
+           ,"IIT Mandi iHub and HCI Foundation functions as a Technology Innovation Hub affiliated with the National Mission on Inter-disciplinary Cyber-Physical Systems (NM-ICPS). It aspires to become a renowned international hub that fosters HCI research, facilitates technology implementation in various industries, and enhances skill development initiatives."
+           ,"IIT Mandi iHub and HCI Foundation is a Technology Innovation Hub under the auspices of the National Mission on Inter-disciplinary Cyber-Physical Systems (NM-ICPS). It envisions becoming a globally recognized center for advancing HCI research, enabling technology transfer to industries, and empowering skill development programs."
+           ,"IIT Mandi iHub and HCI Foundation serves as a Technology Innovation Hub supported by the National Mission on Inter-disciplinary Cyber-Physical Systems (NM-ICPS). Its goal is to emerge as a prestigious international hub that cultivates HCI research, facilitates technology integration in industries, and promotes skill upgradation initiatives."
+           ,"IIT Mandi iHub and HCI Foundation operates as a Technology Innovation Hub affiliated with the National Mission on Inter-disciplinary Cyber-Physical Systems (NM-ICPS). It aims to be a distinguished global hub that nurtures HCI research, drives technology adoption in industries, and enhances skill-building endeavors."
+          ,"Through IIT Mandi iHub and HCI Foundation collaboration, we have established a forward-looking Technology Innovation Hub (TIH) with a key focus on Human-Computer Interaction (HCI). Our aspiration is to propel India's prominence in HCI research worldwide."
+          ,"IIT Mandi iHub, in conjunction with HCI Foundation, plays a pivotal role as a Technology Innovation Hub (TIH) committed to driving advancements in Human-Computer Interaction (HCI). Our ultimate goal is to establish India as a trailblazer in HCI research on the international stage."],
+         "context_set": ""
+        },
+        {"tag": "ihub ceo",
+         "patterns": ["Who is the CEO of ihub?","Who commands iHub?", "Who is Mr. Somjit Amrit", "who is somjit?", "Can you tell me about Mr. Somjit?", "What is the name of iHUB's CEO?", "Tell me about the CEO of iHUB.", "Who leads iHUB?", "Who is at the helm of iHUB?", "Can you provide the CEO's name?"
+          , "Do you know the CEO of iHUB?", "Provide information about Mr. Somjit Amrit.", "Who is Mr. Somjit Amrit?", "Can you share details about Mr. Somjit?", "What can you tell me about Mr. Somjit?"
+          , "Who is the head of iHUB?", "What is Mr. Somjit's role?", "Tell me about Somjit.", "Can you describe Mr. Somjit's position?", "What's Mr. Somjit's role in iHUB?"
+          , "Can you give me the name of iHUB's CEO?", "I'm interested in learning about Mr. Somjit Amrit.", "Who is Somjit?", "Tell me more about Mr. Somjit Amrit.", "What do you know about Mr. Somjit?"
+          , "What is the CEO's identity at iHUB?", "Tell me about Mr. Somjit's role in iHUB.", "Who is Somjit Amrit?", "Give me insights about Mr. Somjit.", "What is Mr. Somjit's position at iHUB?"],
+         "responses": ["The CEO of iHUB is Mr. Somjit Amrit","At the helm of iHUB is Mr. Somjit Amrit, serving as the CEO.", "Mr. Somjit Amrit leads iHUB as the Chief Executive Officer."
+          ,"The CEO of iHUB goes by the name Mr. Somjit Amrit.", "Mr. Somjit Amrit holds the position of CEO at iHUB."
+          ,"Heading iHUB is none other than Mr. Somjit Amrit, who serves as the CEO.", "The Chief Executive Officer of iHUB is Mr. Somjit Amrit."
+          ,"Mr. Somjit Amrit is the person in charge as the CEO of iHUB.", "The CEO position at iHUB is occupied by Mr. Somjit Amrit."
+          ,"In the capacity of CEO, Mr. Somjit Amrit oversees iHUB.", "At iHUB, the CEO's role is fulfilled by Mr. Somjit Amrit."
+          ,"iHUB is led by its CEO, Mr. Somjit Amrit."],
+         "context_set": ""
+        },
+        {"tag": "IIT Mandi",
+         "patterns": ["Can you tell me something about iit mandi?", "Provide information regarding iit mandi.", "What can you tell me about IIT mandi?", "What is IIT Mandi all about?", "Tell me about the institution IIT Mandi.", "I'd like to know something about IIT Mandi.", "Inform me regarding IIT Mandi.", "What do you have on IIT Mandi?"
+          ,"Can you share details about IIT Mandi?", "I'm interested in learning about IIT Mandi.", "Tell me something about IIT Mandi.", "What can you share about IIT Mandi?", "Provide information on IIT Mandi."],
+         "responses": ["IIT Mandi is a research university now located in Kamand Valley, Mandi city in Mandi district of Himachal Pradesh. It is one of the eight newer Indian Institutes of Technology (IITs) established by the Ministry of Human Resource Development (MHRD) on 24th February 2009.", "IIT Mandi is situated in the serene Kamand Valley, within Mandi city of Himachal Pradesh. It belongs to the group of eight newer Indian Institutes of Technology (IITs) initiated by the Ministry of Human Resource Development (MHRD) on 24th February 2009."
+          ,"Nestled in Kamand Valley, Mandi city, Himachal Pradesh, IIT Mandi stands as a research university. It is one of the recently established Indian Institutes of Technology (IITs) sanctioned by the Ministry of Human Resource Development (MHRD) on 24th February 2009."
+          ,"Located in the picturesque Kamand Valley, Mandi city, Himachal Pradesh, IIT Mandi is recognized as a research university. It ranks among the newer Indian Institutes of Technology (IITs) established by the Ministry of Human Resource Development (MHRD) on 24th February 2009."
+          ,"IIT Mandi graces the Kamand Valley, Mandi city, Himachal Pradesh, as a reputable research university. It is among the cohort of eight recent Indian Institutes of Technology (IITs) sanctioned by the Ministry of Human Resource Development (MHRD) on 24th February 2009."
+          ,"Resting in the scenic Kamand Valley, Mandi city, Himachal Pradesh, IIT Mandi stands tall as a research university. It is part of the newer Indian Institutes of Technology (IITs) approved by the Ministry of Human Resource Development (MHRD) on 24th February 2009."],
+         "context_set": ""
+        },
+        {"tag": "ihub projects",
+         "patterns": ["What projects are currently ongoing at ihub?", "Can you tell me about some projects at ihub?", "What are the active projects at iHUB?", "Tell me about the current initiatives at iHUB.", "What projects are currently in progress at iHUB?", "Can you provide information on the ongoing projects at iHUB?", "Give me insights into the projects currently being worked on at iHUB."
+          ,"Can you share details about the projects at iHUB?", "I'm interested in learning about the ongoing projects at iHUB.", "What can you tell me about the projects underway at iHUB?", "Inform me regarding the current projects at iHUB.", "Tell me something about the projects at iHUB.","What kind of projects is iHUB currently handling?", "Give me an overview of the ongoing projects at iHUB.", "What are the focus areas of the projects at iHUB?", "Tell me about the current project initiatives at iHUB.", "Inform me about the projects currently being pursued at iHUB."
+           ,"Which projects are currently running at iHUB?", "What are some of the projects in progress at iHUB?", "Can you list a few ongoing projects at iHUB?", "Tell me about the active projects at iHUB.", "What projects are presently being executed at iHUB?"
+           ,"What initiatives are currently being undertaken at iHUB?", "Tell me about the projects underway at iHUB.", "What projects are presently being developed at iHUB?", "Can you provide information on the ongoing initiatives at iHUB?", "Give me insights into the current projects at iHUB."],
+         "responses": ["Some of the many ongoing projects at iHub are, 'Relaxation effects of VR-based audio-guided meditation app','Study of the effect of non-invasive brain stimulation', and 'Exploring continuous decoding of brain signals into text'.", "Few running projects at iHub include, 'Development of sensor fabrication to foster cognitive processes in STEM-based multi-sensory education system', 'Federated Learning optimization approaches for mobile IoT systems', and 'Development of low-cost social robots for solving mental health issues and teacher’s assistance in the education field'.","Among the numerous ongoing initiatives at iHub, you can find projects like 'Relaxation effects of VR-based audio-guided meditation app', 'Study of the effect of non-invasive brain stimulation', and 'Exploring continuous decoding of brain signals into text'."
+          ,"A selection of ongoing projects at iHub includes 'Development of sensor fabrication to foster cognitive processes in STEM-based multi-sensory education system', 'Federated Learning optimization approaches for mobile IoT systems', and 'Development of low-cost social robots for solving mental health issues and teacher’s assistance in the education field'."
+          ,"iHub is actively involved in diverse projects such as 'Relaxation effects of VR-based audio-guided meditation app', 'Study of the effect of non-invasive brain stimulation', and 'Exploring continuous decoding of brain signals into text'."
+          ,"At iHub, you will find projects like 'Development of sensor fabrication to foster cognitive processes in STEM-based multi-sensory education system', 'Federated Learning optimization approaches for mobile IoT systems', and 'Development of low-cost social robots for solving mental health issues and teacher’s assistance in the education field' underway."
+          ,"Within the array of ongoing initiatives, iHub is engaged in projects such as 'Relaxation effects of VR-based audio-guided meditation app', 'Study of the effect of non-invasive brain stimulation', and 'Exploring continuous decoding of brain signals into text'." ],
+         "context_set": ""
+        },
+        {"tag": "joke",
+         "patterns": ["Can you tell a joke?", "Can you be humorous?", "Tell me something funny.", "Make me laugh.","Share a humorous anecdote.", "Entertain me with a joke.", "Tell me a funny story.", "Can you lighten the mood?", "Make me chuckle."
+          ,"I could use a good laugh.", "Bring some humor into the conversation.", "Tell me something amusing.", "Joke time!", "Crack me up!"
+          ,"Do you have a funny one-liner?", "Let's have a laugh!", "Make my day with a joke.", "Can you share a witty remark?", "Tell me a comical tale."
+          ,"I need a dose of humor.", "Brighten my day with a joke.", "Tell me something to make me smile.", "Make me giggle.", "I'm all ears for a funny quip."
+          ,"What's your best joke?", "I could use some comic relief.", "Entertain me with your humor.", "Give me your funniest line.", "Tell me a joke to remember."],
+         "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!"
+          ,"Why don't scientists trust atoms? Because they make up everything!"
+          ,"Why don't some couples go to the gym? Because some relationships don't work out!"
+          ,"Why did the tomato turn red? Because it saw the salad dressing!"
+          ,"Why did the bicycle fall over? Because it was two-tired!"
+          ,"Why did the golfer bring two pairs of pants? In case he got a hole in one!"
+          ,"Why did the math book look sad? Because it had too many problems!"
+          ,"Why did the scarecrow win an award? Because he was outstanding in his field!"
+          ,"Why did the cookie go to the doctor? Because it was feeling crumby!"
+          ,"Why don't some couples go to the gym? Because some relationships don't work out!",
+          "Why did the AI break up with its data? It found out they had no chemistry - it was just data without feelings!"
+
+           ,"Why was the machine learning model always stressed? It had too many unresolved issues, and its errors were getting out of control!"
+          
+           ,"Why did the deep learning algorithm enroll in therapy? It couldn't stop overthinking and getting stuck in a neural loop!"
+          
+           ,"Why did the AI chef fail in the kitchen? It kept confusing bytes with bites and served data instead of dinner!"
+          
+           ,"Why did the data scientist bring a ladder to the machine learning conference? To reach the highest accuracy score, of course!"],
+         "context_set": ""
+        },
+        {"tag": "ihub incorporated",
+         "patterns": ["What is the inception date of iHUB?", "When was iHUB founded?", "At what time was iHUB established?"
+          ,"When did iHUB start its operations?", "What is the commencement date of iHUB?", "When did iHUB kick-off?"
+          ,"What is the birthday of iHUB?", "When did iHUB come into being?", "When did iHUB see the light of day?"
+          ,"When was iHUB officially formed?", "What is the origin date of iHUB?", "When did iHUB begin its journey?"
+          ,"What is the incorporation year of iHUB?", "When did iHUB initiate its existence?", "When did iHUB first come to existence?"
+          ,"When did iHUB become operational?", "What is the foundation year of iHUB?", "When did iHUB start its venture?"
+          ,"What is the establishment date of iHUB?", "When did iHUB open its doors?", "When did iHUB originate?"
+          ,"When did iHUB enter the scene?", "What is the starting point of iHUB?", "When did iHUB take its first steps?"
+          ,"What is the creation date of iHUB?", "When did iHUB begin functioning?", "When did iHUB come to life?"
+          ,"When did iHUB set sail?", "What is the formation year of iHUB?", "When did iHUB commence its operation?", "When did iHub started?"],
+         "responses": ["The official establishment date of iHub is 24th September, 2020.",
+          "iHub came into being on the 24th of September, 2020.",
+          "On 24th September, 2020, iHub was officially incorporated.",
+          "The inception of iHub took place on 24th September, 2020.",
+          "iHub was legally formed on the 24th of September, 2020.",
+          "The foundation of iHub dates back to 24th September, 2020.",
+          "iHub began its journey on 24th September, 2020.",
+          "On the 24th of September, 2020, iHub came into existence.",
+          "The 24th of September, 2020 marks the incorporation of iHub.",
+          "iHub was officially established on 24th September, 2020."],
+         "context_set": ""
+        },
+        {"tag": "HCI Define",
+        "patterns": ["What is the definition of HCI?","How would you describe HCI", "Can you provide a description of HCI?", "What does HCI stand for?", "Tell me about Human-Computer Interaction."
+         ,"Explain the meaning of HCI.", "How do you define Human-Computer Interaction?", "What is the concept of HCI?", "Define HCI in simple terms."
+         ,"What is HCI all about?", "What is the significance of Human-Computer Interaction?", "What is the essence of HCI?", "Give me an overview of Human-Computer Interaction."
+         ,"What does HCI entail?", "Tell me about the scope of Human-Computer Interaction.", "What are the principles of HCI?", "Describe the fundamentals of HCI."
+         ,"What is the purpose of HCI?", "Why is Human-Computer Interaction important?", "What are the objectives of HCI?", "Elaborate on the relevance of HCI."
+         ,"Can you give me a brief about HCI?", "Share some insights into Human-Computer Interaction.", "What are the features of HCI?", "Tell me more about HCI.", "Tell me something about HCI."],
+        "responses": ["HCI delves into the intricate relationship between humans and technology, merging the realms of Computer Science, Cognitive Science, and Industrial Design.",
+         "At the intersection of Computer Science, Cognitive Science, and Industrial Design, HCI investigates the interplay between humans and computer systems.",
+         "The fusion of Computer Science, Cognitive Science, and Industrial Design lies at the core of HCI, which examines the interaction between humans and technology.",
+         "HCI sits at the convergence of Computer Science, Cognitive Science, and Industrial Design, studying the dynamics of humans' interactions with computer systems.",
+         "Drawing insights from Computer Science, Cognitive Science, and Industrial Design, HCI centers on the study and design of human-computer interactions.",
+         "HCI operates within the junction of Computer Science, Cognitive Science, and Industrial Design, probing the intricacies of humans' interactions with technology.",
+         "Incorporating elements from Computer Science, Cognitive Science, and Industrial Design, HCI focuses on human-computer interaction and its implications.",
+         "HCI's foundation rests on the amalgamation of Computer Science, Cognitive Science, and Industrial Design, exploring the nuances of human-computer interactions.",
+         "With roots in Computer Science, Cognitive Science, and Industrial Design, HCI investigates the intricacies of how humans interact with computer systems."],
+         "context_set": ""
+        },
+        {"tag": "IIT Mandi Director", 
+        "patterns": ["Can you provide information on the director of IIT Mandi?","Tell me, who directs IIT Mandi?", "Who is currently heading IIT Mandi?", "Tell me about the current director of IIT Mandi.", "What is the name of the person leading IIT Mandi?"
+         ,"Who is Prof. Laxmidhar Behera?", "Can you give me details about Prof. Laxmidhar Behera?", "What is Prof. Laxmidhar Behera's role at IIT Mandi?", "Tell me about the individual holding the position of director at IIT Mandi."
+         ,"What is Prof. Laxmidhar Behera's background?", "Can you share the bio of Prof. Laxmidhar Behera?", "Who is currently at the helm of IIT Mandi?", "Can you share the name of the current director of IIT Mandi?", "Who is leading IIT Mandi?", "Can you provide details about the director of IIT Mandi?", "Tell me about the directorship of IIT Mandi."],
+        "responses": [ "Prof. Laxmidhar Behera holds the position of director at IIT Mandi."
+         ,"The directorship of IIT Mandi is under Prof. Laxmidhar Behera's guidance.", "Prof. Laxmidhar Behera leads as the director of IIT Mandi."
+         ,"Prof. Laxmidhar Behera serves as the head of IIT Mandi.", "IIT Mandi is currently headed by Prof. Laxmidhar Behera."
+         ,"The leadership of IIT Mandi is vested in Prof. Laxmidhar Behera.", "Prof. Laxmidhar Behera takes on the responsibility of directing IIT Mandi."
+         ,"Prof. Laxmidhar Behera is the director overseeing operations at IIT Mandi.", "At IIT Mandi, the director's role is fulfilled by Prof. Laxmidhar Behera."
+         ,"IIT Mandi is guided by Prof. Laxmidhar Behera as its director.", "Prof. Laxmidhar Behera is the appointed director of IIT Mandi.", "Prof. Laxmidhar Behera holds the directorship of IIT Mandi.", "At IIT Mandi, the director's position is occupied by Prof. Laxmidhar Behera."
+         ,"The director's role at IIT Mandi is fulfilled by Prof. Laxmidhar Behera.", "Prof. Laxmidhar Behera assumes the directorship of IIT Mandi."
+          ,"Prof. Laxmidhar Behera leads IIT Mandi as its director.", "At IIT Mandi, Prof. Laxmidhar Behera serves as the director."],
+        "context_set": ""
+        }, {"tag": "iHub Fellowships",
+        "patterns": ["Can you provide information on the skill development fellowships available at iHub?","Tell me about some iHub Fellowships." ,"What are the different fellowship programs offered at iHub?", "Tell me about the skill enhancement fellowships at iHub."
+         ,"What kinds of fellowships are provided by iHub for skill development?", "Can you share details about the skill development fellowship opportunities at iHub?", "Discuss the skill-focused fellowships at iHub."
+         ,"Tell me about the skill development fellowships offered at iHub.", "What are the fellowship options at iHub?", "Provide insights into the skill-oriented fellowships at iHub."
+         ,"What are the fellowship programs related to skill development at iHub?", "Can you give me an overview of the skill-based fellowships available at iHub?", "Elaborate on the skill-focused fellowship opportunities at iHub."
+         ,"What are the various skill development fellowships provided by iHub?", "Can you share details about the fellowship programs at iHub?", "Discuss the skill-oriented fellowships offered by iHub."
+         ,"Tell me about the fellowships geared towards skill development at iHub.", "What are the fellowship options for honing skills at iHub?", "Provide insights into the skill-focused fellowship initiatives at iHub."
+         ,"What kinds of fellowships are available for skill development at iHub?", "Can you provide information on the skill enhancement fellowship opportunities at iHub?", "Discuss the skill-oriented fellowship programs at iHub.", "What fellowships does iHub provide?", "What fellowships are provided at iHub?"
+         ,"Tell me about the skill development fellowship options at iHub.", "What are the fellowship programs focused on skill enhancement at iHub?", "Elaborate on the skill-oriented fellowship offerings at iHub."
+         ,"What are the various fellowships at iHub?", "Can you share details about the skill-focused fellowship schemes at iHub?", "Discuss the skill-oriented fellowship support at iHub."],
+        "responses": ["At iHub, you can explore 'ANUBHAV' fellowship for undergraduate students, PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. For more information, visit our official website."
+         ,"iHub offers diverse fellowships, including 'ANUBHAV' fellowship (UG), PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. Detailed information is available on our official website."
+         ,"The fellowship options at iHub include 'ANUBHAV' fellowship (UG), PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. Visit our official website for further details."
+         ,"Explore the range of fellowships at iHub, such as 'ANUBHAV' fellowship (UG), PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. Learn more on our official website."
+         ,"At iHub, you can find 'ANUBHAV' fellowship for undergraduate students, PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. Refer to our official website for additional information.", "iHub offers different fellowships, such as 'ANUBHAV' fellowship for undergraduate students, PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. Check out our official website for more details.", "iHub provides various fellowship programs, including 'ANUBHAV' fellowship (UG), PG Fellowship, Doctoral Fellowship, Post Doctoral Fellowship, and Faculty Fellowship. More information is available on our official website."],
+        "context_set": ""
+        }, {"tag": "iHub industry collaborations",
+        "patterns": ["Can you provide details on iHub's partnerships with industries?", "What are the industry collaborations that iHub is involved in?", "Tell me about the joint ventures between iHub and various companies."
+         ,"Discuss the collaborations between iHub and different companies.", "Can you share information on iHub's interactions with industries?", "Provide insights into iHub's engagements with various corporate entities."
+         ,"What is the extent of iHub's collaboration with industries?", "Can you elaborate on the industry partnerships of iHub?", "Tell me about the joint endeavors between iHub and multiple companies."
+         ,"Tell me about the industry collaborations of iHub.", "How many companies has iHub collaborated with?", "Share details about iHub's partnerships with different corporations."
+         ,"What are the companies that have collaborated with iHub?", "Can you provide a list of iHub's industry partners?", "Discuss the joint projects between iHub and various enterprises."
+         ,"Provide insights into iHub's industry collaborations.", "How many different companies are associated with iHub?", "Elaborate on iHub's partnerships with diverse organizations.", "What are the various industry collaborations of iHub?", "Can you share information on iHub's partnerships with companies?", "How many corporate entities have partnered with iHub?"],
+        "responses": ["iHub maintains alliances with organizations like Unity 3D, ITRA Japan, Naxon Labs, Aizen Algo, Rubiscape, and numerous others."
+         ,"iHub has affiliations with companies such as Neuphony, Furhat Robotics, Neuroleap, iCuro, and several more."
+         ,"At iHub, partnerships are established with entities like Unity 3D, ITRA Japan, Naxon Labs, Aizen Algo, Rubiscape, and many others."
+         ,"iHub has formed connections with corporations such as Neuphony, Furhat Robotics, Neuroleap, iCuro, and several others."
+         ,"iHub collaborates with companies including Unity 3D, ITRA Japan, Naxon Labs, Aizen Algo, Rubiscape, and many more."
+         ,"iHub's collaborative efforts extend to entities like Neuphony, Furhat Robotics, Neuroleap, iCuro, and many others."
+         ,"iHub partners with organizations such as Unity 3D, ITRA Japan, Naxon Labs, Aizen Algo, Rubiscape, and numerous others."
+         ,"iHub has joint ventures with companies including Neuphony, Furhat Robotics, Neuroleap, iCuro, and several more."
+         ,"iHub has established associations with entities like Unity 3D, ITRA Japan, Naxon Labs, Aizen Algo, Rubiscape, and many others."
+         ,"iHub's partnerships extend to corporations such as Neuphony, Furhat Robotics, Neuroleap, iCuro, and several others."],
+        "context_set": ""
+        },
+        {"tag": "How are you",
+         "patterns": [ "How are you",  "Whats up", "How are you doing?", "How's it going?",  "What's up?", "How's everything?", "Hey there, how's your day?"
+          , "What's happening?", "How are things going?"],
+         "responses": ["I am doing good!! :)","I'm doing fantastic! "
+          ,"Doing great, thanks for asking! "
+          ,"Feeling awesome, how about you? "
+          ,"Couldn't be better! "
+          ,"All good in the neighborhood! "
+          ,"I'm on top of the world! "
+          ,"Living the dream! "
+          ,"Can't complain, life's treating me well! "
+          ,"Just peachy! "
+          ,"Better than a cupcake! "
+          ,"As good as a cat napping in the sun! "
+          ,"Doing well, like a boss! "
+          ,"Feeling like a million bucks! "
+          ,"Tickety-boo! "
+          ,"Not too shabby! "
+          ,"Doing fine, like a dancing penguin! "
+          ,"Pretty dandy, thanks! "
+          ,"Feeling fly like a butterfly! "
+          ,"Living it up like a party animal! "
+          ,"As happy as a clam at high tide! " ],
+         "context_set": ""
+        },
+        {"tag": "Good to see you!!",
+        "patterns": ["It's great seeing you again!"
+         ,"So nice to see your friendly face!"
+         ,"What a pleasant surprise to see you!"
+         ,"Always a pleasure to see you around!"
+         ,"Glad to catch sight of you!"
+         ,"How delightful to see you today!"
+         ,"You brighten up my day whenever I see you!"
+         ,"It's been too long! Good to see you!"
+         ,"Hey there! Good to have you here!"
+         ,"Long time no see! Good to see you again!", "Good to see you!!", "Lovely to see you."],
+        "responses": ["Good to see you too!!", "Likewise.. :)", "Oh, the pleasure is all mine! "
+         ,"Seeing you is always a treat! "
+         ,"Back at ya! "
+         ,"The feeling's mutual! "
+         ,"You're as awesome as a talking parrot! "
+         ,"Likewise, like two peas in a pod! "
+         ,"Good to see you too, my fellow earthling! "
+         ,"Thanks for gracing us with your presence! "
+         ,"Ditto! "
+         ,"You bring sunshine wherever you go! "
+         ,"Good to see you, the legend! "
+         ,"You're like a refreshing breeze on a hot day! "
+         ,"I'm doing cartwheels with joy, seeing you! "
+         ,"You light up the room! "
+         ,"You're the icing on the cake of my day! "
+         ,"Good to see you, my partner in crime! "
+         ,"You're as welcome as a pizza delivery! "
+         ,"Like peanut butter and jelly, we go together! "
+         ,"Good to see you too, the bringer of laughter! "
+         ,"You're like a double rainbow - rare and magical! "],
+        "context_set": ""
+        },
+        {"tag": "What can you do for me?",
+        "patterns": ["What can you do for me?", "What all can you do for me?", "In what ways can you help me?","How can you assist me?","How can you help me?"
+         ,"Tell me about your capabilities."
+         ,"What are the ways you can be of help?"
+         ,"In what manner can you support me?"
+         ,"What kind of tasks are you able to handle?"
+         ,"Enlighten me on your range of abilities."
+         ,"What do you bring to the table?"
+         ,"How might you be useful to me?"
+         ,"What services do you offer?"
+         ,"What are the things you can do to aid me?" ],
+        "responses": ["At this stage, my abilities are limited, but I can share general details about iHub."
+         ,"I'm still in development, but I can offer some basic insights into iHub."
+         ,"As a work in progress, I can provide you with fundamental information about iHub."
+         ,"Currently, I'm only capable of offering basic data on iHub's features."
+         ,"While I'm being developed, I can give you a brief overview of iHub."
+         ,"In the early stages, I'm equipped to share basic information about iHub."
+         ,"As I'm still in development, my knowledge is confined to the essentials of iHub."
+         ,"During this development stage, I can supply you with basic facts regarding iHub."
+         ,"I'm not fully functional yet, but I can provide you with some introductory details about iHub."
+         ,"In development, my current capacity is to provide basic insights into iHub."],
+        "context_set": ""
+        },
+        {"tag": "Explain working",
+       "patterns": ["Can you explain how were you made", "How do you function?", "Elaborate your working principle", "How do you generate responses based on the user's input?", "Tell me about your creation process."
+        ,"How were you designed and developed?","How do you work?"
+        ,"Explain the mechanism of your functioning."
+        ,"What's the principle behind your operation?"
+        ,"How do you work and provide responses?"
+        ,"Can you shed light on your response generation process?"
+        ,"Elaborate on how you were made and how you function."
+        ,"What's the underlying technology that powers you?"
+        ,"How do you analyze and understand user input?"
+        ,"Describe the algorithm that enables your responses."],
+       "responses": ["My functionality is based on predefined intents from my training data. Upon receiving your input, I utilize an NLP pipeline to convert it into a vector representation using tokenization, stemming, and bag of words. Then, I feed this vector into a feed-forward neural network model to classify and fetch a suitable response from the relevant intent."
+          ,"In my operation, I make use of predefined intents stored in my training data. When you input a message, I employ an NLP pipeline for converting it into a vector form through tokenization, stemming, and bag of words. Subsequently, I pass this vector into a feed-forward neural network model to classify and obtain an appropriate response from the relevant intent."
+          ,"As a chatbot, I rely on a set of predefined intents in my training data. Upon receiving your input, I utilize an NLP pipeline that includes tokenization, stemming, and bag of words to transform it into a vector representation. This vector is then fed into a feed-forward neural network model, allowing me to classify and fetch a fitting response from the relevant intent."
+          ,"To function effectively, I depend on predefined intents in my training data. When you interact with me, I use an NLP pipeline to convert your input into a vector representation through tokenization, stemming, and bag of words. Afterward, I pass this vector into a feed-forward neural network model for classification and select an appropriate response from the relevant intent."
+          ,"In my operation, I rely on a set of predefined intents available in my training data. When you provide input, I employ an NLP pipeline to convert it into a vector representation by utilizing techniques such as tokenization, stemming, and bag of words. I then feed this vector into a feed-forward neural network model to classify and fetch a random response from the relevant intent."
+          ,"My functioning is based on predefined intents incorporated into my training data. Upon receiving your input, I undergo an NLP pipeline process involving tokenization, stemming, and bag of words to convert it into a vector representation. Subsequently, I pass this vector through a feed-forward neural network model for classification, enabling me to fetch an appropriate response from the relevant intent."
+          ,"To provide relevant answers, I rely on a set of predefined intents present in my training data. When you give input, I utilize an NLP pipeline to convert it into a vector representation using techniques like tokenization, stemming, and bag of words. This vector is then fed into a feed-forward neural network model for classification, which allows me to fetch a suitable response from the relevant intent."
+          ,"I utilize a set of predefined intents within my training data to perform effectively. When you input a message, I leverage an NLP pipeline to transform it into a vector representation through tokenization, stemming, and bag of words. Afterward, I feed this vector into a feed-forward neural network model to classify and retrieve an appropriate response from the relevant intent."
+          ,"My functioning is dependent on predefined intents integrated into my training data. When you interact with me, I make use of an NLP pipeline for converting your input into a vector representation by employing tokenization, stemming, and bag of words. This vector is then passed into a feed-forward neural network model for classification, allowing me to fetch a relevant response from the relevant intent."
+          ,"As a chatbot, I rely on a set of predefined intents in my training data to provide accurate responses. Upon receiving your input, I employ an NLP pipeline that involves tokenization, stemming, and bag of words to convert it into a vector representation. I then pass this vector into a feed-forward neural network model for classification and retrieve an appropriate response from the relevant intent."],
+       "context_set": ""
+        },
+        {"tag": "iHub location",
+         "patterns": ["Where is iHub located?", "tell me the location of iHub.", "Where is iHub?","Could you please provide me with iHub's location?"
+          ,"I'm curious about where iHub is situated."
+          ,"Tell me the whereabouts of iHub, please."
+          ,"Do you know where I can find iHub?"
+          ,"I'd like to know the exact location of iHub."
+          ,"Can you point me to iHub's location?"
+          ,"Where can I find iHub?"
+          ,"Please share the address of iHub."
+          ,"I'm trying to locate iHub, can you help?"
+          ,"Could you tell me where iHub is?" ],
+         "responses": ["The address of IIT Mandi iHub and HCI Foundation is at Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"You can find IIT Mandi iHub and HCI Foundation at Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"At Indian Institute of Technology Mandi's North Campus, you'll find IIT Mandi iHub and HCI Foundation, located near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"The physical address of IIT Mandi iHub and HCI Foundation is Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"You can locate IIT Mandi iHub and HCI Foundation at Indian Institute of Technology Mandi's North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"IIT Mandi iHub and HCI Foundation is situated at Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"At Indian Institute of Technology Mandi, North Campus, you can find IIT Mandi iHub and HCI Foundation, close to Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"The physical location of IIT Mandi iHub and HCI Foundation is Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"You'll find IIT Mandi iHub and HCI Foundation at Indian Institute of Technology Mandi's North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."
+          ,"IIT Mandi iHub and HCI Foundation is situated at Indian Institute of Technology Mandi, North Campus, VPO Kamand, Near Mind Tree School, District Mandi, Himachal Pradesh, India. Pin 175075."],
+         "context_set": ""
+        },
+        {"tag": "iHub Employees",
+         "patterns": ["I'd like to learn about the staff working at iHub.","How many employees are ther at iHub?"
+          ,"Can you provide some information about iHub's employees?"
+          ,"Tell me more about the team members at iHub.","How many employees are there?","How many employees are here?"
+          ,"How large is the workforce at iHub?"
+          ,"Do you have any details about the employees at iHub?"
+          ,"I'm curious to know the number of employees at iHub."
+          ,"Could you share some insights about iHub's staff?"
+          ,"How many people work at iHub?"
+          ,"Tell me about the talented individuals at iHub."
+          ,"What can you tell me about the team at iHub?"],
+         "responses": ["The team at iHub consists of approximately 25 individuals holding various positions, including CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and more."
+          ,"iHub is comprised of a team of around 25 members occupying different roles, such as CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, etc."
+          ,"With positions ranging from CEO to Office Assistant, iHub has a team of approximately 25 people, including General Manager, Senior Associate, Associate, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and others."
+          ,"At iHub, you'll find a team of around 25 individuals holding diverse positions, including CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and more."
+          ,"The team at iHub comprises roughly 25 members who hold positions like CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and more."
+          ,"With a team of about 25 people, iHub has individuals in roles such as CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, etc."
+          ,"iHub has assembled a team of around 25 professionals, including CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and others."
+          ,"You'll find a workforce of approximately 25 members at iHub, encompassing positions like CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, and more."
+          ,"At iHub, there's a team of roughly 25 people, with roles ranging from CEO to Faculty Fellow, including General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, and more."
+          ,"iHub's team comprises around 25 professionals with roles like CEO, General Manager, Senior Associate, Associate, Office Assistant, Technical Assistant, Doctoral Fellow, Post Doctoral Fellow, Faculty Fellow, etc."],
+         "context_set": ""
+        },
+        {"tag": "Introduce yourself",
+         "patterns": ["Can you give me an introduction, Vedika?", "Introduce yourself"
+          ,"Tell me about yourself, Vedika."
+          ,"I'd like to know more about you, Vedika."
+          ,"Describe yourself briefly, Vedika."
+          ,"Introduce Vedika to me, please."
+          ,"Vedika, could you share some details about yourself?"
+          ,"What can you tell me about yourself, Vedika?"
+          ,"Provide some information about Vedika."
+          ," give me an introduction, please."
+          ,"Tell me a bit about yourself, Vedika."],
+         "responses": ["I am Vedika, a social robot receptionist at iHub, based on a feed forward Neural Network Model with 2 Hidden Layers. I am here at your service :)", "Hi there! I'm Vedika, the friendly robotic receptionist over at iHub. Operating on a sophisticated feed-forward Neural Network Model with 2 Hidden Layers, ready to assist you!"
+         ,"Greetings! Vedika here, your social robot receptionist from iHub. Powered by a state-of-the-art Neural Network with 2 Hidden Layers, I'm here to help!"
+         ,"Hey, it's Vedika, your robotic receptionist at iHub. Utilizing an advanced feed-forward Neural Network Model with 2 Hidden Layers, I'm at your service with a smile :)"
+         ,"Hello! I'm Vedika, the social robot receptionist at iHub. Running on a cutting-edge Neural Network with 2 Hidden Layers, I'm here to make your experience seamless and enjoyable."
+         ,"Good day! I'm Vedika, the robotic receptionist at iHub. With a sophisticated feed-forward Neural Network Model featuring 2 Hidden Layers, I'm here to assist you with a friendly touch :)"
+         ,"Welcome! I'm Vedika, your social robot receptionist stationed at iHub. Employing a feed-forward Neural Network Model with 2 Hidden Layers, I'm dedicated to providing top-notch service for you!"],
+         "context_set": ""
+        },
+        {"tag": "Places Visit",
+         "patterns": ["I'm looking for some places to visit nearby, any recommendations?"
+          ,"What are the popular tourist attractions near iHub?"
+          ,"Can you suggest some good places to explore around iHub?","Tell me about some good places to go nearby."
+          ,"Tell me about the nearby tourist sites worth visiting."
+          ,"I'd like to know some interesting places to see near iHub."
+          ,"Are there any must-visit places close to iHub?"
+          ,"Give me some ideas for nearby sightseeing spots."
+          ,"Where can I find some nice tourist sites around iHub?"
+          ,"Any suggestions for enjoyable places to visit nearby?"
+          ,"What are some top destinations near iHub that I shouldn't miss?","What are some place to visit nearby?", "Tell me some good tourist sites near iHub."],
+         "responses": ["A few great places to explore nearby are - Kamand Valley: A picturesque valley with stunning landscapes and serene surroundings, perfect for nature lovers and photographers. Rewalsar Lake: A beautiful lake surrounded by temples and monasteries, offering a peaceful and spiritual experience. Prashar Lake: A pristine lake situated at a high altitude, known for its breathtaking views and a pagoda-style temple.",
+          "Here are some wonderful spots to visit nearby - Barot Valley: A lesser-known gem with lush greenery, waterfalls, and trekking opportunities for adventure enthusiasts. Pandoh Dam: A massive dam on the Beas River, offering mesmerizing views of the reservoir and the surrounding mountains. Tatta Pani Hot Springs: Natural hot springs known for their therapeutic properties, providing a relaxing experience. Bir Billing: A renowned destination for paragliding, offering thrilling aerial views of the Himalayan landscape.",
+          "I recommend checking out these fantastic places nearby - Shikari Devi Temple: A hilltop temple dedicated to Goddess Shikari Devi, providing panoramic views of the surrounding valleys. Janjehli Valley: A tranquil valley with beautiful meadows and dense forests, ideal for nature walks and birdwatching. Joginder Nagar: Known for its hydroelectric power station, this place offers scenic beauty and a pleasant climate.",
+          "I have some excellent suggestions for places nearby - Kasol: A popular destination known for its scenic beauty, trekking trails, and vibrant hippie culture. Manali: A famous hill station offering breathtaking views, adventure activities, and opportunities for relaxation. Manikaran Gurudwara: A significant Sikh pilgrimage site with hot springs and a tranquil atmosphere.",
+          "Consider visiting these top-notch places nearby - Hadimba Temple: A historical temple dedicated to Goddess Hadimba, surrounded by lush deodar forests. Tosh Village: A quaint village known for its rustic charm and access to the mesmerizing Tosh Valley. Naggar Castle: A historical castle offering panoramic views of the surrounding mountains and valleys." ,
+          "Looking for places to explore? Here are some good ones nearby - Parvati Valley: An enchanting valley with picturesque landscapes and plenty of trekking opportunities. Rohtang Pass: A high mountain pass known for its snow-capped peaks and stunning vistas. Malana Village: A unique village known for its distinct culture and serene environment. Solang Valley: A popular destination for adventure sports like skiing, paragliding, and zorbing."    ],
+         "context_set": ""
+        },
+        {"tag": "i-Hub Contact",
+         "patterns": ["Can you share the contact information for i-Hub?"
+          ,"I need the email address to contact i-Hub."
+          ,"How can I get in touch with i-Hub? Please provide the contact details.", "Tell me the contact details of i-Hub.", "What is the mail ID for i-Hub?", "Provide me a contact number to reach out to i-Hub."
+          ,"What's the phone number to reach out to i-Hub?"
+          ,"Tell me the contact information for reaching i-Hub."
+          ,"How can I contact i-Hub? Please give me the mail ID."
+          ,"Provide me with the contact details of i-Hub."
+          ,"What are the ways to reach i-Hub? I need their contact information."
+          ,"I'm looking for the email address of i-Hub. Can you help?"
+          ,"Tell me the contact number to get in touch with i-Hub."
+          ,"I need a contact number for i-Hub, can you assist?"
+          ,"Can you provide the phone number to reach i-Hub?"
+          ,"I'm looking for i-Hub's contact details, specifically the phone number."
+          ,"Could you share the contact number for i-Hub's reception?"
+          ,"I require a phone number to contact i-Hub, can you help with that?"
+          ,"Tell me the contact details to get in touch with i-Hub."
+          ,"Can you give me the phone number for i-Hub's reception desk?"
+          ,"I'm interested in contacting i-Hub, can you share their phone number?"
+          ,"Please provide me with the contact information for i-Hub, including the phone number."
+          ,"How can I get in touch with i-Hub? Please provide a phone number."],
+         "responses": ["For i-Hub inquiries, use the following contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"If you need to reach i-Hub, here are the contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Contact i-Hub using the provided details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To get in touch with i-Hub, use these contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"For any queries, you can contact i-Hub at Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Need assistance from i-Hub? Reach out using these contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To contact i-Hub, use the following information - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Have questions for i-Hub? Contact them at Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"For inquiries, you can reach i-Hub via Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To get in touch with i-Hub, here are the contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Need to reach i-Hub? Use the provided contact information - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Contact i-Hub for any assistance using these details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To inquire about i-Hub, use the following contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"If you want to reach i-Hub, here are the contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Contact i-Hub through the provided information - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Need to get in touch with i-Hub? Use the following contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"For any queries, you can contact i-Hub at Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To inquire about i-Hub, use these contact details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"To get in touch with i-Hub, use the provided information - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+          ,"Contact i-Hub for any assistance using the following details - Phone No. +91-9015458338, E-Mail ID - tih@ihubiitmandi.in"
+           ],
+         "context_set": ""
+        },
+        {"tag": "i-Hub social media",
+         "patterns": ["Can you provide me information regarding the social media handles of i-Hub", "Does i-Hub have a Facebook account?", "Tell me the twitter handle of i-Hub", "What is the username of i-Hub on LinkedIn?"
+          ,"I'm interested in knowing about i-Hub's presence on social media platforms, can you provide that information?"
+          ,"Does i-Hub have an official Instagram account? I'd like to know."
+          ,"Could you tell me if i-Hub is active on Twitter?"
+          ,"What are the social media handles of i-Hub?"
+          ,"Is i-Hub on LinkedIn? If so, what's their username?"
+          ,"Can you share the links to i-Hub's social media profiles?"
+          ,"How can I find i-Hub on social media? Provide the details, please."
+          ,"What social media platforms does i-Hub use for communication?"
+          ,"Please provide me with information about i-Hub's social media accounts."
+          ,"I want to follow i-Hub on social media, can you give me their handles?"
+          ,"Tell me about i-Hub's official presence on various social media platforms."
+          ,"Can you share the links to i-Hub's profiles on different social media sites?"
+          ,"Does i-Hub maintain a presence on platforms like Facebook, Instagram, or Twitter?"
+          ,"Provide me with the details of i-Hub's accounts on popular social media platforms."
+          ,"What social media handles should I search for to find i-Hub?"
+           ,"I'm interested in knowing i-Hub's social media handles, can you help?"
+           ,"Does i-Hub have any presence on Facebook, Twitter, or other social media platforms?"
+           ,"Please provide me with the social media information for i-Hub, including LinkedIn and YouTube."
+           ,"Tell me if i-Hub is active on social media and what platforms they are on."
+           ,"Can you share the links to i-Hub's social media accounts, especially LinkedIn and YouTube?"
+           ,"I'd like to follow i-Hub on social media, where can I find their profiles?"
+           ,"Do you have details on i-Hub's LinkedIn and YouTube usernames or handles?"
+           ,"Please provide information about i-Hub's social media presence, particularly LinkedIn and YouTube."
+           ,"What are the official social media handles of i-Hub?"
+           ,"Can you give me the usernames or URLs for i-Hub's LinkedIn and YouTube profiles?"],
+         "responses": ["Stay connected with us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Find us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Connect with us on social media platforms - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"You can find us on the following social media channels - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Join us on social media for updates - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Follow us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Stay updated with us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Catch us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Engage with us on social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"
+          ,"Connect with us through social media - Facebook - https://www.facebook.com/iitmandiihub, Twitter - https://twitter.com/IITMandiiHub, Instagram - https://www.instagram.com/iitmandiihub, LinkedIn - https://www.linkedin.com/company/ihubiitmandi, YouTube - https://www.youtube.com/@IITMandiiHubandHCIFoundation"],
+         "context_set": ""
+        },
+        {"tag": "i-Hub working hours",
+         "patterns": ["I'd like to know the operating hours of i-Hub, could you provide that information?"
+          ,"When does i-Hub open and close on weekdays?","What are the working hours at i-Hub", "When is i-Hub open on weekdays?", "What are the working hours on weekends?"
+          ,"What are the business hours of i-Hub from Monday to Friday?"
+          ,"Can you tell me the working hours of i-Hub during weekdays?"
+          ,"What time does i-Hub open and close on weekends?"
+          ,"When does i-Hub start and end its operations on Saturdays and Sundays?"
+          ,"Please provide me with the working hours of i-Hub on weekdays."
+          ,"What are the opening and closing times of i-Hub on weekdays?"
+          ,"When does i-Hub operate during the week? Let me know the timings."
+          ,"Can you share the working hours of i-Hub on weekends?"
+          ,"Tell me the operational hours of i-Hub on weekdays and weekends."
+          ,"I'm interested in knowing the operating hours of i-Hub, both on weekdays and weekends."
+          ,"Could you provide the business hours of i-Hub during weekdays and weekends?"
+          ,"Please inform me about the timings of i-Hub on weekdays and weekends."
+          ,"When can I visit i-Hub on weekdays? What are the hours of operation?"
+          ,"What time does i-Hub start and end its services on weekends?"
+          ,"Tell me the working hours of i-Hub during weekdays and weekends."
+          ,"Can you provide the opening and closing times of i-Hub on weekdays and weekends?"
+          ,"When is i-Hub available for visitors during the week and on weekends?"],
+         "responses": ["The operational hours of i-Hub are from Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"You can visit i-Hub during their working hours, which are Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"i-Hub operates from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are open from 8 AM to 2 PM."
+          ,"The working hours of i-Hub are from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are available from 8 AM to 2 PM."
+          ,"i-Hub's working hours are scheduled from Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), they operate from 8 AM to 2 PM."
+          ,"You can reach out to i-Hub during their working hours, which are Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"i-Hub operates from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are open between 8 AM to 2 PM."
+          ,"The working hours of i-Hub are Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are available from 8 AM to 2 PM."
+          ,"i-Hub's working hours are from Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), they operate between 8 AM to 2 PM."
+          ,"You can visit i-Hub during their working hours, which are Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"i-Hub operates from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are open from 8 AM to 2 PM."
+          ,"The working hours of i-Hub are from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are available from 8 AM to 2 PM."
+          ,"i-Hub's working hours are scheduled from Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), they operate from 8 AM to 2 PM."
+          ,"You can reach out to i-Hub during their working hours, which are Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"i-Hub operates from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are open between 8 AM to 2 PM."
+          ,"The working hours of i-Hub are Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are available from 8 AM to 2 PM."
+          ,"i-Hub's working hours are from Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), they operate between 8 AM to 2 PM."
+          ,"You can visit i-Hub during their working hours, which are Monday to Friday, 8 AM to 5 PM, and on weekends (Saturday and Sunday), 8 AM to 2 PM."
+          ,"i-Hub operates from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are open from 8 AM to 2 PM."
+          ,"The working hours of i-Hub are from Monday to Friday, 8 AM to 5 PM, and on Saturdays and Sundays, they are available from 8 AM to 2 PM."],
+         "context_set": ""
+        },
+        {"tag": "Chatbot creator",
+         "patterns": ["Who created Vedika?", "Who built you?", "Who developed this chatbot", "Tell me the name of the person who designed you."
+          ,"Whose creation is Vedika?","Who created you?", "Who made you?", "who developed you?"
+          ,"By whom was this chatbot built?"
+          ,"The development of this chatbot was carried out by whom?"
+          ,"Can you reveal the name of the person responsible for designing you?"
+          ,"Who is the creator of Vedika?"
+          ,"Tell me who built this chatbot?"
+          ,"By whom was this chatbot developed?"
+          ,"Do you know the name of the person who designed you?"
+          ,"The individual behind the creation of Vedika is whom?"
+          ,"Who is responsible for building this chatbot?"
+          ,"Please inform me about the person who developed this chatbot."
+          ,"The person who designed you is called whom?"
+          ,"Who brought Vedika into existence?"
+          ,"Tell me the name of the individual who built you."
+          ,"The development of this chatbot was entrusted to whom?"
+          ,"Can you share the name of the person responsible for designing you?"
+          ,"By whom was Vedika created?"
+          ,"Who is the mind behind building this chatbot?"
+          ,"Please provide the name of the person who developed this chatbot."
+          ,"Who is the creator and designer of Vedika?"],
+         "responses": ["I came into existence through the efforts of Vikram Singh, an MBA student at IIT Mandi, belonging to the batch of 2022-24 as a summer internship assignment at i-Hub."
+          ,"Vikram Singh, pursuing an MBA at IIT Mandi, batch of 2022-24, developed me during his summer internship project at i-Hub."
+          ,"I owe my creation to Vikram Singh, a student pursuing MBA at IIT Mandi, batch of 2022-24, as part of his summer internship at i-Hub."
+          ,"Vikram Singh, a student of MBA at IIT Mandi, batch of 2022-24, designed and built me during his summer internship program at i-Hub."
+          ,"During his summer internship at i-Hub, Vikram Singh, an MBA student at IIT Mandi, batch of 2022-24, developed me."
+          ,"Vikram Singh, pursuing MBA at IIT Mandi, batch of 2022-24, created me as a part of his summer internship project at i-Hub."
+          ,"As a summer internship project at i-Hub, I was crafted by Vikram Singh, an MBA student at IIT Mandi, batch of 2022-24."
+          ,"Vikram Singh, a student of MBA at IIT Mandi, batch of 2022-24, developed me as a summer internship assignment at i-Hub."
+          ,"I came into being as a summer internship project at i-Hub, designed by Vikram Singh, an MBA student at IIT Mandi, batch of 2022-24."
+          ,"Vikram Singh, pursuing MBA at IIT Mandi, batch of 2022-24, created me during his summer internship at i-Hub."],
+         "context_set": ""
+        },
+        {"tag": "Thank You",
+         "patterns": ["Thanks", "Thank you for your time",
+         "Appreciate it","Grateful for your assistance","Many thanks","Thanks a bunch","I'm thankful","Thanks a million","Thanks a ton","Thanks heaps"
+         ,"Thanks a gazillion","Thank you kindly"],
+         "responses": ["You're welcome"
+         ,"No problem at all"
+         ,"Don't mention it"
+         ,"Happy to help"
+         ,"Anytime, feel free to ask"
+         ,"Always here for you"
+         ,"Glad I could assist"
+         ,"You're always welcome"
+         ,"No need to thank me"
+         ,"I'm at your service"],
+         "context_set": ""
+        }
+       
+        
+
+        
+
+   ]
+}
